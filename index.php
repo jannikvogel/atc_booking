@@ -257,7 +257,7 @@ $booking_groups = 0;
 
 
 $imageHeight = 5000; //temporary height
-$imageWidth = 820;
+$imageWidth = 920;
 
 // Create images
 $im = imagecreate($imageWidth, $imageHeight);
@@ -272,7 +272,7 @@ $color_orange = imagecolorallocate($im, 255, 140, 0);
 $row = 1;
 $lineHeight = 20;
 $vertOffset = 4;
-$cell_width = 104;
+$cell_width = 115;
 
 // Set date header columns
 $day = clone $MASTER_DATE;
